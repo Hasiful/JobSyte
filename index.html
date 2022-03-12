@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jobSyte</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- jQuery Link -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- common css -->
+    <link rel="stylesheet" href="assets/css/commom.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    
+    <!--
+    ============================================
+          start header section
+    ============================================
+    -->
+
+    <header class="header_section">
+        <div class="container">
+            <div class="header_wrapper">
+                <a href="" class="header_logo">
+                    <img src="assets/image/header logo.png" alt="">
+                </a>
+                <div class="header_right">
+                    <nav class="header_nav">
+                        <ul>
+                            <li><a class="header_nav_first" href="">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">How Its Works</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">FAQ</a></li>
+                            <li><a class="header_block" href="">Blog <span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6 8.13595C13.2879 7.82578 12.784 7.82578 12.472 8.13595L9.59996 10.968L6.76796 8.13595C6.45593 7.82578 5.95199 7.82578 5.63996 8.13595C5.48851 8.28617 5.40332 8.49064 5.40332 8.70395C5.40332 8.91726 5.48851 9.12174 5.63996 9.27195L9.03196 12.664C9.18217 12.8154 9.38665 12.9006 9.59996 12.9006C9.81327 12.9006 10.0177 12.8154 10.168 12.664L13.6 9.27195C13.7514 9.12174 13.8366 8.91726 13.8366 8.70395C13.8366 8.49064 13.7514 8.28617 13.6 8.13595Z" fill="#919EAB"/>
+                                </svg></span></a>
+                            </li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header_button">
+                        <div class="header_cart"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.82443 6.0263L3.64203 4.52963C3.57632 3.89515 3.03543 3.41266 2.38992 3.41266H1.71551C1.29822 3.41266 0.959961 3.07848 0.959961 2.66629C0.959961 2.2541 1.29822 1.91992 1.71551 1.91992H2.38992C3.81047 1.91992 5.0007 2.98164 5.14528 4.37771L5.28294 5.70695H20.6162C20.9332 5.70695 21.1714 5.99285 21.1104 6.30016L19.7708 13.049C19.4465 14.6828 17.9971 15.8613 16.3119 15.8613H8.28333C8.51487 16.8706 9.42793 17.6023 10.493 17.6023H16.8165C16.8537 17.6023 16.8907 17.605 16.8722 17.6083C16.9276 17.6043 16.9832 17.6023 17.0391 17.6023C18.2907 17.6023 19.3053 18.6047 19.3053 19.8411C19.3053 21.0776 18.2907 22.0799 17.0391 22.0799C15.7875 22.0799 14.7729 21.0776 14.7729 19.8411C14.7729 19.5835 14.8171 19.3319 14.9019 19.095H12.1267C12.2114 19.3319 12.2556 19.5835 12.2556 19.8411C12.2556 21.0776 11.241 22.0799 9.98944 22.0799C8.73783 22.0799 7.72324 21.0776 7.72324 19.8411C7.72324 19.2958 7.92191 18.7819 8.27103 18.3814C7.4122 17.7635 6.84565 16.8104 6.7358 15.7467L6.7242 15.6344C5.49457 15.1719 4.58707 14.0477 4.46619 12.6823L4.16169 9.24294C4.15655 9.22166 4.15277 9.19981 4.15045 9.17746L3.82443 6.0263ZM9.98944 20.8361C10.5456 20.8361 10.9965 20.3906 10.9965 19.8411C10.9965 19.2916 10.5456 18.8462 9.98944 18.8462C9.43323 18.8462 8.98234 19.2916 8.98234 19.8411C8.98234 20.3906 9.43323 20.8361 9.98944 20.8361ZM17.0391 20.8361C17.5953 20.8361 18.0462 20.3906 18.0462 19.8411C18.0462 19.2916 17.5953 18.8462 17.0391 18.8462C16.4829 18.8462 16.032 19.2916 16.032 19.8411C16.032 20.3906 16.4829 20.8361 17.0391 20.8361Z" fill="url(#paint0_linear_281_935)"/>
+                            <defs><linearGradient id="paint0_linear_281_935" x1="21.2043" y1="0.741681" x2="-2.82475" y2="5.19797" gradientUnits="userSpaceOnUse"><stop stop-color="#00AEEF"/> <stop offset="1" stop-color="#0BE2E2"/> </linearGradient></defs></svg>
+                            </div>
+                        <div class="header_button2">
+                            <a href="">Log In</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--
+    ============================================
+          End header section
+    ============================================
+    -->
+
+
+    <!--
+    ============================================
+          start banner section
+    ============================================
+    -->
+
+    <section class="banner_section">
+        <div class="container">
+            <div class="banner_wrapper">
+                <div class="banner_content">
+                    <div class="banner_content_title">The Simplest Way To Get A Fully-Compliant Plan</div>
+                    <div class="banner_subtitle">Get approval for a development the first time round with a fully-compliant plan.</div>
+                    <div class="banner_content_button">
+                        <a href="">Order A Plan</a>
+                    </div>
+                </div>
+                <div class="banner_image">
+                    <img src="assets/image/banner image.png" alt="">
+
+                    <a href="https://www.youtube.com/watch?v=8HFS2V8gaNk" class="banner_playBtn">
+                        <img src="assets/image/play btn.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ============================================
+          End banner section
+    ============================================
+    -->
+
+    <!--
+    ============================================
+          start support section
+    ============================================
+    -->
+
+
+    <section class="support_section">
+        <div class="container">
+            <div class="support_wrapper">
+                <div class="support_item">
+                    <div class="support_item_title">10x</div>
+                    <div class="support_item_subtitle">10x Less Costly</div>
+                    <div class="support_item_text">A cost-efficient way to get a plan</div>
+                </div>
+                <div class="support_item">
+                    <div class="support_item_title">120%</div>
+                    <div class="support_item_subtitle">Best Support</div>
+                    <div class="support_item_text">We're available 24/7 365 days a year</div>
+                </div>
+                <div class="support_item">
+                    <div class="support_item_title">100k</div>
+                    <div class="support_item_subtitle">Happy Clients</div>
+                    <div class="support_item_text">Approval guaranteed with fully-compliant plan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ============================================
+          End support section
+    ============================================
+    -->
+
+
+
+
+    <!--
+    ============================================
+          start bestsellar section
+    ============================================
+    -->
+
+    <section class="best_sellar_section product-slider-wrapper">
+        <div class="container sellaer_container">
+            <div class="best_sellar_slider">
+                <div class="best_sellar_content">
+                    <div class="best_sellar_wrapper">
+                        <div class="best_sellar_thumbnil">
+                            <div class="best_sellar_thumbImg">
+                                <img src="assets/image/image-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="best_sellar_conPart">
+                            <div class="best_sellar_title">Workzone permit</div>
+                            <div class="best_review_star">
+                                <ul>
+                                    <li class="slick-active"><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="best_sellar_price">$175.00+</div>
+                            <div class="best_seller_text">
+                                <p class="seller_text_part">Get dedicated parking for workers' vehicles during the construction period.</p>
+                                <p class="seller_text_part">Work zones parking bays are allocated for construction work vehicles, or for parking by construction site workers.</p>
+                                <p class="seller_text_part">If you need dedicated spaces to park, load and unload vehicles adjacent to your construction site, apply for a Construction Zone Permit.</p>
+                            </div>
+                            <div class="best_sellar_rightBtn">
+                                <a href="">Get your plan</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <div class="best_sellar_content">
+                    <div class="best_sellar_wrapper">
+                        <div class="best_sellar_thumbnil">
+                            <div class="best_sellar_thumbImg">
+                                <img src="assets/image/image-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="best_sellar_conPart">
+                            <div class="best_sellar_title">Traffic control plan</div>
+                            <div class="best_review_star">
+                                <ul>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="best_sellar_price">$175.00+</div>
+                            <div class="best_seller_text">
+                                <p class="seller_text_part">Get fast high-quality and fully-compliant traffic control plans and construction traffic management plans.</p>
+                                <p class="seller_text_part">Working closely with Councils, Police, RTA and STA, we know exactly what you need.</p>
+                            </div>
+                            <div class="best_sellar_rightBtn">
+                                <a href="">Get your plan</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <div class="best_sellar_content">
+                    <div class="best_sellar_wrapper">
+                        <div class="best_sellar_thumbnil">
+                            <div class="best_sellar_thumbImg">
+                                <img src="assets/image/image-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="best_sellar_conPart">
+                            <div class="best_sellar_title">Road occupancy license</div>
+                            <div class="best_review_star">
+                                <ul>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="best_sellar_price">$175.00+</div>
+                            <div class="best_seller_text">
+                                <p class="seller_text_part">Is your activity likely to impact on traffic flow? Then, a road occupancy licence is required. </p>
+                            </div>
+                            <div class="best_sellar_rightBtn">
+                                <a href="">Get your plan</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <div class="best_sellar_content">
+                    <div class="best_sellar_wrapper">
+                        <div class="best_sellar_thumbnil">
+                            <div class="best_sellar_thumbImg">
+                                <img src="assets/image/image-3.png" alt="">
+                            </div>
+                        </div>
+                        <div class="best_sellar_conPart">
+                            <div class="best_sellar_title">Traffic guidance scheme</div>
+                            <div class="best_review_star">
+                                <ul>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                    <li><span><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.24095 11.0644L3.92608 13.2743C3.71777 13.4132 3.4433 13.2402 3.4787 12.9924L4.03748 9.08092L1.2436 6.28704C1.07484 6.11828 1.17117 5.82928 1.40744 5.79553L5.3011 5.23929L6.97475 1.33411C7.07505 1.10006 7.40686 1.10006 7.50716 1.33411L9.18081 5.23929L13.0745 5.79553C13.3107 5.82928 13.4071 6.11828 13.2383 6.28704L10.4444 9.08092L11.0032 12.9924C11.0386 13.2402 10.7641 13.4132 10.5558 13.2743L7.24095 11.0644Z" fill="#EEC200"/></svg></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="best_sellar_price">$175.00+</div>
+                            <div class="best_seller_text">
+                                <p class="seller_text_part">Get a well-designed and compliant TGS that meet your requirements to ensure it is approved by road authorities.</p>
+                            </div>
+
+                            <div class="best_sellar_rightBtn">
+                                <a href="">Get your plan</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ============================================
+          End bestsellar section
+    ============================================
+    -->
+
+
+    <!--
+    ============================================
+          Start partner section
+    ============================================
+    -->
+
+    <section class="pratner_section">
+        <div class="container">
+            <!-- title -->
+            <div class="title">
+                <h1>Trusted By</h1>
+            </div>
+
+            <div class="partner_wrapper">
+                <!-- item -->
+                <div class="partner_item">
+                    <img style="width: 148px; height: 57px;" src="assets/image/image6.png" alt=""> 
+                </div>
+                <!-- item -->
+                <div class="partner_item">
+                    <img style="width: 193px; height: 48px;" src="assets/image/image7.png" alt="">
+                </div>
+                <!-- item -->
+                <div class="partner_item">
+                    <img style="width: 210px; height: 71px;" src="assets/image/image8.png" alt="">
+                </div>
+                <!-- item -->
+                <div class="partner_item">
+                    <img style="width: 191px; height: 67px;" src="assets/image/image9.png" alt="">
+                </div>
+                <!-- item -->
+                <div class="partner_item">
+                    <img style="width: 188px; height: 95px;" src="assets/image/image10.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ============================================
+          End partner section
+    ============================================
+    -->
+
+    <!--
+    ============================================
+          start  AboutUs section
+    ============================================
+    -->
+
+    <section class="about_section">
+        <div class="container">
+            <div class="about_wrapper">
+                <div class="about_thumbnil">
+                    <div class="about_thumbnil_image">
+                        <img src="assets/image/aboutBanner.png" alt="">
+                    </div>
+                </div>
+                <div class="about_content">
+                    <div class="about_content_firstBtn">
+                        <a href="">About Us</a>
+                    </div>
+                    <div class="about_content_tile">Get plans and approvals for your project now</div>
+                    <div class="best_seller_text">
+                        <p class="seller_text_part about_content_text">We design and develop traffic plans to help businesses get their project approved fast. </p>
+                        <p class="seller_text_part about_content_text">We pride ourselves as being the go-to service for quality work. Our goal is to grow together with you starting with a solid plan.</p>
+                    </div>
+
+                    <div class="best_sellar_rightBtn">
+                        <a href="" tabindex="-1">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ============================================
+          End  AboutUs section
+    ============================================
+    -->
+
+
+    <!--
+    ============================================
+          Start FAQ section
+    ============================================
+    -->
+
+    <section class="faq_section">
+        <div class="container">
+            <div class="faq_title">Frequently Asked Questions</div>
+
+            <div class="faq_content accordion">
+                <!-- item -->
+                <div class="faq_item">
+                    <div class="faq_item_content accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button faq_item_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                When is a road occupancy licence required?
+                              </button>
+                        </div>
+
+                        <div id="collapseOne" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                You can pay with a credit card or via net banking (if you’re in United States). We will renew your subscription automatically at the end of every billing cycle.
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- item -->
+                <div class="faq_item">
+                    <div class="faq_item_content accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button faq_item_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                                When is a road occupancy licence required?
+                              </button>
+                        </div>
+
+                        <div id="collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                A Road Occupancy Licence is required for any activity likely to impact on traffic flow, even if that activity takes place off-road. Examples of road occupancies include: Road maintenance such as resurfacing, or line marking.
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- item -->
+                <div class="faq_item">
+                    <div class="faq_item_content accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button faq_item_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                What does a traffic control plan look like?
+                              </button>
+                        </div>
+
+                        <div id="collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                A Traffic Control Plan is a detailed drawing of the layout of temporary road signs and devices used to manage traffic at a worksite. For instance, it shows the location of signage and devices, pavement markings, barriers, arrow boards and/or variable message signage, and roadwork speed zones.
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- item -->
+                <div class="faq_item">
+                    <div class="faq_item_content accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button faq_item_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsFour">
+                                How much does a traffic control plan cost?
+                              </button>
+                        </div>
+
+                        <div id="collapsFour" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                You can pay with a credit card or via net banking (if you’re in United States). We will renew your subscription automatically at the end of every billing cycle.
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <!-- item -->
+                <div class="faq_item">
+                    <div class="faq_item_content accordion-item">
+                        <div class="accordion-header">
+                            <button class="accordion-button faq_item_btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                                When is a road occupancy licence required?
+                              </button>
+                        </div>
+
+                        <div id="collapseFive" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                You can pay with a credit card or via net banking (if you’re in United States). We will renew your subscription automatically at the end of every billing cycle.
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--
+    ============================================
+          End FAQ section
+    ============================================
+    -->
+
+
+    <!--
+    ============================================
+          start contact section
+    ============================================
+    -->
+
+    <section class="contact_section">
+        <div class="container">
+            <div class="contact_container">
+                <div class="contact_section_title">Sign up to receive email updates. Join our mailing list!</div>
+                <div class="contact_input_wrapper">
+                    <div class="input_inner">
+                        <input type="text" class="input_control" placeholder="Enter your email">
+                    </div>
+                    <div class="input_inner">
+                        <input type="text" class="input_control" placeholder="ZIP Code">
+                    </div>
+                </div>
+
+                <div class="contact_btn">
+                    <a href="">Join</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ============================================
+          End contact section
+    ============================================
+    -->
+
+
+    <!--
+    ============================================
+          start article section
+    ============================================
+    -->
+
+    <section class="recent_article_section">
+        <div class="container">
+            <div class="faq_title">Don’t miss our recent articles</div>
+
+            <div class="recent_article_wrapper">
+                <div class="recent_article_blog">
+                    <div class="recent_blog_top">Traffic and Safety Forum asks “What does safety mean to you?”</div>
+                    <div class="recent_blog_bottom">
+                        <div class="recent_blog_date">Jun 28, 2019</div>
+                        <div class="recent_blog_botto_text">Traffic and Safety Forum asks “What does safety mean to you?”</div>
+                        <div class="recent_bottom_btn"><a href="">Read article</a></div>
+                    </div>
+                </div>
+                <div class="recent_article_blog">
+                    <div class="recent_blog_top">Traffic and Safety Forum asks “What does safety mean to you?”</div>
+                    <div class="recent_blog_bottom">
+                        <div class="recent_blog_date">Jun 28, 2019</div>
+                        <div class="recent_blog_botto_text">Traffic and Safety Forum asks “What does safety mean to you?”</div>
+                        <div class="recent_bottom_btn"><a href="">Read article</a></div>
+                    </div>
+                </div>
+                <div class="recent_article_blog">
+                    <div class="recent_blog_top">Traffic and Safety Forum asks “What does safety mean to you?”</div>
+                    <div class="recent_blog_bottom">
+                        <div class="recent_blog_date">Jun 28, 2019</div>
+                        <div class="recent_blog_botto_text">Traffic and Safety Forum asks “What does safety mean to you?”</div>
+                        <div class="recent_bottom_btn"><a href="">Read article</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+    ============================================
+          End article section
+    ============================================
+    -->
+
+
+    <!--
+    ============================================
+          start footer section
+    ============================================
+    -->
+
+    <footer class="footer_section">
+        <div class="container">
+            <div class="main_footer">
+                <div class="main_footer_wrapper">
+                    <div class="main_footer_left">
+                        <div class="footer_logo">
+                            <img src="assets/image/footerlogo.png" alt="">
+                        </div>
+                        <div class="footer_content_text">Everything you need to get planning approval from the appropriate authority.</div>
+                        <div class="footer_social">
+                            <ul>
+                                <li><a href=""><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M17.5781 9.46094C17.5781 8.89844 17.5078 8.47656 17.4375 8.01953H9.14062V11.0078H14.0625C13.8867 12.3086 12.5859 14.7695 9.14062 14.7695C6.15234 14.7695 3.72656 12.3086 3.72656 9.25C3.72656 4.36328 9.49219 2.11328 12.5859 5.10156L14.9766 2.81641C13.4648 1.41016 11.4609 0.53125 9.14062 0.53125C4.28906 0.53125 0.421875 4.43359 0.421875 9.25C0.421875 14.1016 4.28906 17.9688 9.14062 17.9688C14.168 17.9688 17.5781 14.4531 17.5781 9.46094Z" fill="url(#paint0_linear_281_1226)"/><defs>
+                                    <linearGradient id="paint0_linear_281_1226" x1="18.0753" y1="-2.22733" x2="-3.57015" y2="1.21344" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00AEEF"/><stop offset="1" stop-color="#0BE2E2"/></linearGradient></defs></svg></a>
+                                </li>
+                                <li><a href=""><svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.1367 4.59375C16.8398 4.06641 17.4727 3.43359 17.9648 2.69531C17.332 2.97656 16.5938 3.1875 15.8555 3.25781C16.6289 2.80078 17.1914 2.09766 17.4727 1.21875C16.7695 1.64062 15.9609 1.95703 15.1523 2.13281C14.4492 1.39453 13.5 0.972656 12.4453 0.972656C10.4062 0.972656 8.75391 2.625 8.75391 4.66406C8.75391 4.94531 8.78906 5.22656 8.85938 5.50781C5.80078 5.33203 3.05859 3.85547 1.23047 1.64062C0.914062 2.16797 0.738281 2.80078 0.738281 3.50391C0.738281 4.76953 1.37109 5.89453 2.39062 6.5625C1.79297 6.52734 1.19531 6.38672 0.703125 6.10547V6.14062C0.703125 7.93359 1.96875 9.41016 3.65625 9.76172C3.375 9.83203 3.02344 9.90234 2.70703 9.90234C2.46094 9.90234 2.25 9.86719 2.00391 9.83203C2.46094 11.3086 3.83203 12.3633 5.44922 12.3984C4.18359 13.3828 2.60156 13.9805 0.878906 13.9805C0.5625 13.9805 0.28125 13.9453 0 13.9102C1.61719 14.9648 3.55078 15.5625 5.66016 15.5625C12.4453 15.5625 16.1367 9.97266 16.1367 5.08594C16.1367 4.91016 16.1367 4.76953 16.1367 4.59375Z" fill="url(#paint0_linear_281_1227)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_281_1227" x1="18.0753" y1="-3.22733" x2="-3.57015" y2="0.213443" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00AEEF"/>
+                                    <stop offset="1" stop-color="#0BE2E2"/>
+                                    </linearGradient></defs></svg></a>
+                                </li>
+                                <li><a href=""><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 4.20703C5.75 4.20703 3.95703 6.03516 3.95703 8.25C3.95703 10.5 5.75 12.293 8 12.293C10.2148 12.293 12.043 10.5 12.043 8.25C12.043 6.03516 10.2148 4.20703 8 4.20703ZM8 10.8867C6.55859 10.8867 5.36328 9.72656 5.36328 8.25C5.36328 6.80859 6.52344 5.64844 8 5.64844C9.44141 5.64844 10.6016 6.80859 10.6016 8.25C10.6016 9.72656 9.44141 10.8867 8 10.8867ZM13.1328 4.06641C13.1328 3.53906 12.7109 3.11719 12.1836 3.11719C11.6562 3.11719 11.2344 3.53906 11.2344 4.06641C11.2344 4.59375 11.6562 5.01562 12.1836 5.01562C12.7109 5.01562 13.1328 4.59375 13.1328 4.06641ZM15.8047 5.01562C15.7344 3.75 15.4531 2.625 14.5391 1.71094C13.625 0.796875 12.5 0.515625 11.2344 0.445312C9.93359 0.375 6.03125 0.375 4.73047 0.445312C3.46484 0.515625 2.375 0.796875 1.42578 1.71094C0.511719 2.625 0.230469 3.75 0.160156 5.01562C0.0898438 6.31641 0.0898438 10.2188 0.160156 11.5195C0.230469 12.7852 0.511719 13.875 1.42578 14.8242C2.375 15.7383 3.46484 16.0195 4.73047 16.0898C6.03125 16.1602 9.93359 16.1602 11.2344 16.0898C12.5 16.0195 13.625 15.7383 14.5391 14.8242C15.4531 13.875 15.7344 12.7852 15.8047 11.5195C15.875 10.2188 15.875 6.31641 15.8047 5.01562ZM14.1172 12.8906C13.8711 13.5938 13.3086 14.1211 12.6406 14.4023C11.5859 14.8242 9.125 14.7188 8 14.7188C6.83984 14.7188 4.37891 14.8242 3.35938 14.4023C2.65625 14.1211 2.12891 13.5938 1.84766 12.8906C1.42578 11.8711 1.53125 9.41016 1.53125 8.25C1.53125 7.125 1.42578 4.66406 1.84766 3.60938C2.12891 2.94141 2.65625 2.41406 3.35938 2.13281C4.37891 1.71094 6.83984 1.81641 8 1.81641C9.125 1.81641 11.5859 1.71094 12.6406 2.13281C13.3086 2.37891 13.8359 2.94141 14.1172 3.60938C14.5391 4.66406 14.4336 7.125 14.4336 8.25C14.4336 9.41016 14.5391 11.8711 14.1172 12.8906Z" fill="url(#paint0_linear_281_1228)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_281_1228" x1="16.0669" y1="-3.22733" x2="-3.2735" y2="-0.49456" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00AEEF"/>
+                                    <stop offset="1" stop-color="#0BE2E2"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    </a>
+                                </li>
+                                <li><a href=""><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.75 0.375H1.21484C0.617188 0.375 0.125 0.902344 0.125 1.53516V15C0.125 15.6328 0.617188 16.125 1.21484 16.125H14.75C15.3477 16.125 15.875 15.6328 15.875 15V1.53516C15.875 0.902344 15.3477 0.375 14.75 0.375ZM4.87109 13.875H2.55078V6.38672H4.87109V13.875ZM3.71094 5.33203C2.9375 5.33203 2.33984 4.73438 2.33984 3.99609C2.33984 3.25781 2.9375 2.625 3.71094 2.625C4.44922 2.625 5.04688 3.25781 5.04688 3.99609C5.04688 4.73438 4.44922 5.33203 3.71094 5.33203ZM13.625 13.875H11.2695V10.2188C11.2695 9.375 11.2695 8.25 10.0742 8.25C8.84375 8.25 8.66797 9.19922 8.66797 10.1836V13.875H6.34766V6.38672H8.5625V7.40625H8.59766C8.91406 6.80859 9.6875 6.17578 10.8125 6.17578C13.168 6.17578 13.625 7.75781 13.625 9.76172V13.875Z" fill="url(#paint0_linear_281_1229)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_281_1229" x1="16.0669" y1="-3.22733" x2="-3.2735" y2="-0.49456" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00AEEF"/>
+                                    <stop offset="1" stop-color="#0BE2E2"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    </a>
+                                </li>
+                                <li><a href=""><svg width="21" height="14" viewBox="0 0 21 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.6758 2.64453C19.4648 1.80078 18.7969 1.13281 17.9883 0.921875C16.4766 0.5 10.5 0.5 10.5 0.5C10.5 0.5 4.48828 0.5 2.97656 0.921875C2.16797 1.13281 1.5 1.80078 1.28906 2.64453C0.867188 4.12109 0.867188 7.28516 0.867188 7.28516C0.867188 7.28516 0.867188 10.4141 1.28906 11.9258C1.5 12.7695 2.16797 13.4023 2.97656 13.6133C4.48828 14 10.5 14 10.5 14C10.5 14 16.4766 14 17.9883 13.6133C18.7969 13.4023 19.4648 12.7695 19.6758 11.9258C20.0977 10.4141 20.0977 7.28516 20.0977 7.28516C20.0977 7.28516 20.0977 4.12109 19.6758 2.64453ZM8.53125 10.1328V4.4375L13.5234 7.28516L8.53125 10.1328Z" fill="url(#paint0_linear_281_1230)"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_281_1230" x1="21.0878" y1="-4.22733" x2="-3.94241" y2="0.414633" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#00AEEF"/>
+                                    <stop offset="1" stop-color="#0BE2E2"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main_footer_item">
+                        <ul>
+                            <li><a class="footer_link" href="">Product</a></li>
+                            <li><a href="">Product link 1</a></li>
+                            <li><a href="">Product link 2</a></li>
+                            <li><a href="">Product link 3</a></li>
+                            <li><a href="">Product link 4</a></li>
+                            <li><a href="">Product link 5</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div class="main_footer_item">
+                        <ul>
+                            <li><a class="footer_link" href="">Services</a></li>
+                            <li><a href="">Demo Service 1</a></li>
+                            <li><a href="">Demo Service 2</a></li>
+                            <li><a href="">Demo Service 3</a></li>
+                            <li><a href="">Demo Service 4</a></li>
+                            <li><a href="">Demo Service 5</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="main_footer_item">
+                        <ul>
+                            <li><a class="footer_link" href="">Company</a></li>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Terms</a></li>
+                            <li><a href="">Blogs</a></li>
+                            <li><a href="">Fact</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="footer_socket">Copyright © 2021, Jobsyte.</div>
+        </div>
+    </footer>
+
+    <!--
+    ============================================
+          end footer section
+    ============================================
+    -->
+
+
+
+    <!-- bootstrap bundle link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquary link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- magnific popup -->
+
+    <script>
+        $('.banner_playBtn').magnificPopup({
+           type: 'iframe'
+          });
+    </script>
+
+    <!-- slick slider -->
+    <script src="assets/js/slick.min.js"></script>
+    <script>
+        $('.best_sellar_slider').slick({
+            dots: true,
+            autoplay: true,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            adaptiveHeight: true,
+            fade: true,
+            cssEase: 'linear',
+            arrows: false,
+        });
+    </script>
+
+</body>
+</html>
